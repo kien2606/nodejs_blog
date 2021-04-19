@@ -1,0 +1,19 @@
+@import 'variables.scss';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.app{
+    .wrapper-forminformation{
+        width: 500px;
+        height: 300px;
+        border: 0.5px solid rgb(145, 133, 133);
+        margin-top: 30px;
+        padding: 20px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        .btn-submit{
+            margin-top: 20px;
+        }
+    }
+}
